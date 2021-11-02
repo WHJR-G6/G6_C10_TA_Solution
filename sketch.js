@@ -21,12 +21,6 @@ function setup() {
 
 function draw() {
   background('#F2F5B6');
-  
-  if(keyDown("up"))
-  {
-    player.velocityY=-10
-  }
-
   drawSprites();
 }
 
